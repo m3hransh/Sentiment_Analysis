@@ -1,7 +1,9 @@
 # Sentiment Analysis 
 **This is the bachelor's degree final project of [Computer Engineering, Bu-Ali Sina University](http://eng.basu.ac.ir/en/ce).**
-## Intro
+## Abstract
 Our decisions have a great relationship with the opinions of others. As an organization, this can be more valuable to find out how customers think about their products and services. In this notebook, we will use data samples of review texts about some products on Amazon. By finding statistical relationships between words, we are going to create a reasonable model that can predict if costumers have a negative or positive opinion on the given product.
+Before training the model, The data preprocessed by removing stopwords, punctuation, etc. Some data exploratory analysis is done afterward to draw some insight. Then using ANOVA Test right features(words) is extracted. The model that is used in this project is Naive Bayes. Naive Bayes is a simple but optimal classifier that can do a reasonable job on text classifying (visit here for more information). In conclusion, to test the model, different scores are calculated as a form of confusion matrix that, in general, gives an accuracy number between 80 to 90 percent. 
+
 ## Installation
 For a smoother process, use [Google Colab](https://colab.research.google.com/) and upload the data folder there or in your Google Drive. As an alternative, you can use the Jupyter notebook in Anaconda and install additional packages with Conda.
 ## Cleaning
